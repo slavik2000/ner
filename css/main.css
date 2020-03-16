@@ -12,9 +12,9 @@ body {
 a {
   text-decoration: none; }
 
-ul li {
-  padding: 0;
-  list-style: none; }
+.menu__items li {
+  list-style: none;
+  padding: 24px 0 0 0; }
 
 .top-header {
   display: flex; }
