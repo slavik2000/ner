@@ -302,7 +302,8 @@ a {
 @media (max-width: 768px) {
   .description__order ul,
   .description__work ul {
-    padding: 0; }
+    padding: 0;
+    list-style: none; }
   .description__order li,
   .description__work li {
     padding: 12px 0 0 0; } }

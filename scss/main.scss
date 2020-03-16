@@ -22,11 +22,9 @@ a {
   text-decoration: none;
 }
 
-.menu__items {
-  li {
-    list-style: none;
-    padding: 21px 0 0 0;
-  }
+.menu__items li {
+  list-style: none;
+  padding: 21px 0 0 0;
 }
 
 .top-header {
@@ -60,10 +58,8 @@ a {
   align-items: center;
 }
 
-.menu {
-  li {
-    padding-right: 44px;
-  }
+.menu li {
+  padding-right: 44px;
 }
 
 .menu li {
@@ -71,11 +67,9 @@ a {
     padding-right: 51px;
   }
 }
-.menu {
-  li {
-    &:nth-child(5) {
-      padding: 0;
-    }
+.menu li {
+  &:nth-child(5) {
+    padding: 0;
   }
 }
 
@@ -117,13 +111,9 @@ a {
   }
 }
 
-.menu__items {
-  ul {
-    li {
-      display: inline-block;
-      // padding: 10px 0 10px 0;
-    }
-  }
+.menu__items ul li {
+  display: inline-block;
+  // padding: 10px 0 10px 0;
 }
 
 #menu__toggle {
@@ -185,27 +175,21 @@ a {
   transition-duration: 0.25s;
 }
 
-.btn {
-  span {
-    left: 10px;
+.btn span {
+  left: 10px;
+}
+
+.menu__btn span {
+  &::before {
+    content: "";
+    top: -8px;
   }
 }
 
-.menu__btn {
-  span {
-    &::before {
-      content: "";
-      top: -8px;
-    }
-  }
-}
-
-.menu__btn {
-  span {
-    &::after {
-      content: "";
-      top: 8px;
-    }
+.menu__btn span {
+  &::after {
+    content: "";
+    top: 8px;
   }
 }
 
@@ -240,11 +224,9 @@ a {
   text-transform: uppercase;
 }
 
-.menu__items {
-  li {
-    &:hover {
-      opacity: 0.8;
-    }
+.menu__items li {
+  &:hover {
+    opacity: 0.8;
   }
 }
 
@@ -300,10 +282,8 @@ a {
   text-align: right;
   padding: 0px;
 }
-.slider-right {
-  img {
-    max-width: 100%;
-  }
+.slider-right img {
+  max-width: 100%;
 }
 
 .slider-controller {
@@ -338,17 +318,13 @@ a {
   }
 }
 
-.product__services {
-  h3 {
-    text-transform: uppercase;
-    font-weight: 500;
-  }
+.product__services h3 {
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
-.product__services {
-  p {
-    flex: 1 1 auto;
-  }
+.product__services p {
+  flex: 1 1 auto;
 }
 
 .product__services {
@@ -429,6 +405,7 @@ h2 {
   @media (max-width: $media-768) {
     ul {
       padding: 0;
+      list-style: none;
     }
     li {
       padding: 12px 0 0 0;
@@ -467,17 +444,15 @@ h2 {
   }
 }
 
-.description {
-  li {
-    &::before {
-      content: "";
-      border: 1px solid #fb565a;
-      width: 25px;
-      right: 37px;
-      top: 9px;
-      position: relative;
-      display: block;
-    }
+.description li {
+  &::before {
+    content: "";
+    border: 1px solid #fb565a;
+    width: 25px;
+    right: 37px;
+    top: 9px;
+    position: relative;
+    display: block;
   }
 }
 
@@ -567,23 +542,19 @@ h2 {
   }
 }
 
-.map__icon {
-  img {
-    position: absolute;
-    top: 170px;
-    right: 232px;
-    width: 92px;
-    z-index: 2;
-  }
+.map__icon img {
+  position: absolute;
+  top: 170px;
+  right: 232px;
+  width: 92px;
+  z-index: 2;
 }
 
-.map__marker {
-  img {
-    position: absolute;
-    top: 128px;
-    right: 148px;
-    width: 200px;
-  }
+.map__marker img {
+  position: absolute;
+  top: 128px;
+  right: 148px;
+  width: 200px;
 }
 
 .map__marker,
