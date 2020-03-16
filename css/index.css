@@ -12,6 +12,9 @@ body {
 a {
   text-decoration: none; }
 
+ul li {
+  list-style: none; }
+
 .menu__items li {
   list-style: none;
   padding: 21px 0 0 0; }
