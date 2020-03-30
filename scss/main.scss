@@ -504,9 +504,12 @@ h2 {
   padding: $main-padding;
 }
 
-.map__block {
+
+
+.map__block  {
   position: relative;
-  img {
+ 
+  > img {
     width: 100%;
   }
 }
@@ -519,6 +522,7 @@ h2 {
     position: absolute;
     top: 90px;
     left: 160px;
+    z-index: 5;
   }
 }
 
@@ -546,19 +550,18 @@ h2 {
   }
 }
 
-.map__icon img {
+.map__icon_img  {
   position: absolute;
-  top: 170px;
-  right: 232px;
-  width: 92px;
+  top: 39%;
+  right: 18%;
   z-index: 2;
 }
 
-.map__marker img {
+.map__marker_img  {
   position: absolute;
-  top: 128px;
-  right: 148px;
-  width: 200px;
+  top: 26%;
+  right: 9%;
+  z-index: 1;
 }
 
 .map__marker,
@@ -566,6 +569,20 @@ h2 {
   @media (max-width: $media-960) {
     display: none;
   }
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:32.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
 .footer {
